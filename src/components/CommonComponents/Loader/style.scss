@@ -1,0 +1,23 @@
+@import 'src/common/styles/_colors.scss';
+// @import "common/styles/_fonts.scss";
+
+.loader {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+  margin: auto;
+  .loader-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    color: $white;
+    font-size: 35;
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "baseURL": "https://api.producthunt.com",
+  "restApiRoot": "/v1"
+}

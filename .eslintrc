@@ -1,0 +1,39 @@
+{
+  "parser": "babel-eslint",
+  "extends": "react",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "key-spacing": "off",
+    "jsx-quotes": [2, "prefer-double"],
+    "max-len": [2, 120, 2],
+    "object-curly-spacing": [2, "always"],
+    "comma-dangle": "off",
+    "no-debugger": "off",
+    "react/prop-types": 0,
+    "indent": ["error", 2],
+    "space-before-function-paren": 0,
+    "no-undef": "off",
+    "react/sort-comp": [
+      1,
+      {
+        "order": ["constructor", "lifecycle", "everything-else", "render"]
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["*.test.js"],
+      "rules": {
+        "no-unused-expressions": "off"
+      }
+    }
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
